@@ -7,7 +7,7 @@ EBK   售后电子工单回单追溯系统\
 都开源了希望大家好好用吧.每页最多显示20天记录.自动分页,支持按照订单号和物流号查询.\
 已处理订单自动显示完成时间统计.方便收集效率等.\
 管理员支持导出csv表格.希望有用的到的拿去.该有的功能都加了.用户管理也有简单的改密码功能.\
-AI帮我写的还不错自己也修改了点.哈哈.\
+AI帮我写的还不错自己也修改了点.哈哈.
 
 登入界面\
 ![登入界面](https://github.com/ChibiSF/EBK_PHP/blob/main/1.png)
@@ -17,7 +17,7 @@ AI帮我写的还不错自己也修改了点.哈哈.\
 ![用户管理](https://github.com/ChibiSF/EBK_PHP/blob/main/4.png)
 ![系统设置](https://github.com/ChibiSF/EBK_PHP/blob/main/5.png)
 
-在线测试 [url=https://ebk.tb.cn.eu.org]https://ebk.tb.cn.eu.org[/url] .\
-在线测试管理员:admin  密码:admin123   .\
-在线测试一般用户:销售1  密码:xs123456 .\
-管理员删除和修改密码已禁用 .\
+在线测试 https://ebk.tb.cn.eu.org   \
+在线测试管理员:admin  密码:admin123    \
+在线测试一般用户:销售1  密码:xs123456  \
+管理员删除和修改密码已禁用
