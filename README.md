@@ -16,3 +16,8 @@ AI帮我写的还不错自己也修改了点.哈哈.\
 ![订单查询](https://github.com/ChibiSF/EBK_PHP/blob/main/3.png)
 ![用户管理](https://github.com/ChibiSF/EBK_PHP/blob/main/4.png)
 ![系统设置](https://github.com/ChibiSF/EBK_PHP/blob/main/5.png)
+
+在线测试 [url=https://ebk.tb.cn.eu.org]https://ebk.tb.cn.eu.org[/url] .\
+在线测试管理员:admin  密码:admin123   .\
+在线测试一般用户:销售1  密码:xs123456 .\
+管理员删除和修改密码已禁用 .\
