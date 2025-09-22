@@ -544,6 +544,21 @@ table th{background:#f4f6f7;position:sticky;top:0;}
 /* 文件上传样式 */
 .file-upload {border: 2px dashed #ddd;padding: 20px;text-align: center;border-radius: 5px;margin-bottom: 15px;}
 .file-upload:hover {border-color: <?php echo $theme_color;?>;}
+
+
+ .description{text-align: center; margin-bottom: 50px; font-size: 1.1rem; line-height: 1.6; color: #555; max-width: 800px; margin-left: auto; margin-right: auto;}
+ 
+/* 提示框基本样式 */
+ .tooltip{position:relative;display:inline-block;border-bottom:2px dotted #3498db;cursor:pointer;font-weight:600;color:#2980b9;}
+/* 提示框文本 */
+ .tooltip .tooltiptext{visibility:hidden;width:200px;background-color:#333;color:#fff;text-align:center;border-radius:6px;padding:10px;position:absolute;z-index:1;bottom:125%;left:50%;margin-left:-100px;opacity:0;transition:opacity 0.3s,visibility 0.3s;font-weight:normal;font-size:0.9rem;line-height:1.4;}
+/* 提示框箭头 */
+ .tooltip .tooltiptext::after{content:"";position:absolute;top:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:#333 transparent transparent transparent;}
+/* 显示提示框文本 */
+ .tooltip:hover .tooltiptext{visibility:visible;opacity:1;}
+.tooltip-right .tooltiptext{top:-5px;bottom:auto;left:110%;right:auto;margin-left:0;}
+.tooltip-right .tooltiptext::after{top:15px;right:100%;left:auto;border-color:transparent #333 transparent transparent;}
+
 </style>
 </head>
 <body>
@@ -781,7 +796,7 @@ foreach($statuses as $s){
         <?php else: ?>
         <?php foreach($tickets as $t): ?>
         <tr>
-            <td><?php echo $t['id'];?></td>
+            <td><span class="tooltip tooltip-right"><?php echo $t['id'];?><span class="tooltiptext"><?php echo $t['description'];?></span></span> </td>
             <td class="long-text"><?php echo htmlspecialchars($t['order_no']);?></td>
             <td class="long-text"><?php echo htmlspecialchars($t['logistics_no']);?></td>
             <td><?php echo htmlspecialchars($t['platform']);?></td>
